@@ -67,7 +67,7 @@ class Renumber(lxu.command.BasicCommand):
 
         illegalChars = ['^', '<', '>', '/', '\\', '{', '}', '[', ']',
                         '~', '`', '$', '.', '?', '%', '&', '@', '*',
-                        '(', ')', '!', '+', '#', '\'', '\"', ':']
+                        '(', ')', '!', '+', '#', '\'', '\"']
 
         for char in illegalChars:
             val = val.replace(char, '')
